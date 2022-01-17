@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("./base/head.ejs") %>
+  </head>
+  <body>
+    <nav class="navbar wide-screen">
+      <div class="nav-logo-container">
+        <a class="nav-logo-link" href="/"><h1 class="logo nav-logo"></h1></a>
+      </div>
+      <ul class="nav-links">
+        <a class="nav-link about-link a" href="#about">About</a>
+        <a class="nav-link docs-link a" href="#docs">Docs</a>
+      </ul>
+    </nav>
+    <section id="about" class="content-section">
+      <div class="landing">
+        <div class="content-box landing-header-box">
+          <h2 class="landing-header h2">A fast, reliable timestamp API</h2>
+          <p class="landing-description p">Maintained with passion and providing a rich source of meta data</p>
+        </div>
+      </div>
+      <div id="try" class="content-container">
+        <div class="content-box try-content-box">
+          <div class="instruction-container">
+            <h5 class="instruction-title h5">Try out the API</h5>
+            <p class="instruction p">Pick a date then click the button to make a GET request</p>
+          </div>
+          <div class="try-form">
+            <div class="cal1"></div>
+            <button type="button" class="request-button button p">GET timestamp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="results">
+      <div class="results-content-box">
+        <h5 class="instruction-title h5">See the results</h5>
+        <table class="results-table"></table>
+      </div>
+    </section>
+    <section id="docs" class="content-section">
+      <h3 class="section-title h3">Docs</h3>
+    </section>
+    <%- include("./base/bodyScript.ejs") %>
+  </body>
+</html>

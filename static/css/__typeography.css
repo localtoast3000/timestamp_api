@@ -1,0 +1,42 @@
+.h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--greyscale-dark);
+}
+.h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--greyscale-lesser-tinted-dark);
+}
+.h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: var(--greyscale-lesser-tinted-dark);
+}
+.h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--greyscale-lesser-tinted-dark);
+}
+.h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--greyscale-lesser-tinted-dark);
+}
+.h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--greyscale-lesser-tinted-dark);
+}
+.p,
+.a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--greyscale-lesser-tinted-dark);
+}
+
+.landing-header {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--greyscale-lesser-tinted-dark);
+}

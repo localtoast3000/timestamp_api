@@ -1,0 +1,13 @@
+.form {
+  padding: 20px;
+  max-width: 600px;
+  width: 90vw;
+}
+
+.text-input {
+  width: 90%;
+  padding: 15px 10px;
+  border: solid 1px var(--greyscale-shaded-light);
+  border-radius: 5px;
+  margin: 10px;
+}

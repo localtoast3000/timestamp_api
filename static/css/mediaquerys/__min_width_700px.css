@@ -1,0 +1,52 @@
+@media (min-width: 700px) {
+  #about {
+    min-height: 700px;
+  }
+  .landing-header-box {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .landing-header {
+    max-width: 100%;
+    font-size: 3rem;
+  }
+  .landing-description {
+    max-width: 100%;
+    font-size: 1.3rem;
+  }
+
+  #try {
+    padding-top: 0px;
+  }
+
+  .instruction-container {
+    padding: 10px;
+  }
+
+  .instruction-title {
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  .try-content-box {
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .try-form {
+    padding: 20px;
+    max-width: 600px;
+    width: 90vw;
+  }
+
+  .request-button {
+    position: relative;
+    display: block;
+  }
+
+  #docs {
+    background-color: var(--greyscale-light);
+  }
+}
