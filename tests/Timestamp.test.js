@@ -1,10 +1,23 @@
 import Timestamp from '../libs/Timestamp/Timestamp.js';
 
-const tsp = new Timestamp({ date: '28/2/2021', dateFormat: 'DMY' });
+const initTimestamp = new Promise((resolve, reject) => {
+  resolve();
+});
 
-console.log('');
-// console.log(
-//   `Local date and time in India ${tsp.getForeignTimestamp({ lang: 'en', country: 'IN', timezone: 'Asia/Kolkata' })}`
-// );
-console.log(tsp);
-console.log('');
+initTimestamp
+  .then(() => {
+    const tsp = new Timestamp({});
+    logInSpace(tsp);
+    logInSpace(tsp.setDateTime('19/02/2022', 'DMY'));
+    logInSpace(tsp.getWeekDay('long'));
+    logInSpace(tsp.formatNumericDate('12/10/2016', 'DMY', 'YMD'));
+  })
+  .catch((error) => {
+    logInSpace(error);
+  });
+
+function logInSpace(content) {
+  console.log('');
+  console.log(content);
+  console.log('');
+}
